@@ -4,7 +4,7 @@
     public $title;
     public $genre;
     public $page;
-    public $price;
+    protected $price;
     public $publishing;  
 
     public function __construct($_title, $_genre, $_page, $_price, $_publishing)
